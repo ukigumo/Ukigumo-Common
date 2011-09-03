@@ -13,7 +13,7 @@ __END__
 
 =head1 NAME
 
-Ukigumo::Common -
+Ukigumo::Common - Common things between Ukigumo::Client/Ukigumo::Server
 
 =head1 SYNOPSIS
 
@@ -21,13 +21,19 @@ Ukigumo::Common -
 
 =head1 DESCRIPTION
 
-Ukigumo::Common is
+Ukigumo::Common is a dummy package. This distribution contains a common things for client/server.
+
+=head1 POLICY
+
+This distribution should on perl 5.8.
 
 =head1 AUTHOR
 
 Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF GMAIL COME<gt>
 
 =head1 SEE ALSO
+
+L<Ukigumo::Client>/L<Ukigumo::Server>
 
 =head1 LICENSE
 
