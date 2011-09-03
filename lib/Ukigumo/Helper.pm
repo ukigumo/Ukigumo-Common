@@ -27,4 +27,26 @@ sub status_color {
 }
 
 1;
+__END__
 
+=head1 NAME
+
+Ukigumo::Helper - helper functions for Ukigumo
+
+=head1 FUNCTIONS
+
+=over 4
+
+=item status_str($status: Str) : Str
+
+Get a string representation for status code.
+
+=item status_color($status: Str) : Str
+
+Get a color for the status code.
+
+    STATUS_SUCCESS => green
+    STATUS_FAIL    => red
+    STATUS_NA      => yellow
+
+=back

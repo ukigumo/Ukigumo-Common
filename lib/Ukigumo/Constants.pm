@@ -14,4 +14,25 @@ use constant {
 };
 
 1;
+__END__
+
+=head1 NAME
+
+Ukigumo::Constants - constants for Ukigumo
+
+=head1 DESCRIPTION
+
+A module provides constants for L<Ukigumo>.
+
+=head1 CONSTANTS
+
+=over 4
+
+=item STATUS_SUCCESS
+
+=item STATUS_FAIL
+
+=item STATUS_NA
+
+=back
 
