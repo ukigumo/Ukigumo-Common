@@ -4,10 +4,6 @@ use Module::Install::AuthorTests;
 name 'Ukigumo-Common';
 all_from 'lib/Ukigumo/Common.pm';
 
-# requires '';
-# requires 'Exporter' => 5.63; # use Exporter 'import';
-# requires 'Plack' =>  0.9949;
-
 
 
 tests 't/*.t t/*/*.t t/*/*/*.t t/*/*/*/*.t';
