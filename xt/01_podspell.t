@@ -34,3 +34,4 @@ API
 URL
 URI
 db
+Str
