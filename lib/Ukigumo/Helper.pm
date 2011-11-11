@@ -14,6 +14,7 @@ sub status_str {
         STATUS_SUCCESS() => 'SUCCESS',
         STATUS_FAIL()    => 'FAIL',
         STATUS_NA()      => 'NA',
+        STATUS_SKIP()    => 'SKIP',
 	}->{$status} || "Unknown: $status";
 }
 
@@ -23,6 +24,7 @@ sub status_color {
 		STATUS_SUCCESS() => 'green',
 		STATUS_FAIL()    => 'red',
 		STATUS_NA()      => 'yellow',
+		STATUS_SKIP()    => 'gray',
 	}->{$status} || "cyan";
 }
 
@@ -48,5 +50,6 @@ Get a color for the status code.
     STATUS_SUCCESS => green
     STATUS_FAIL    => red
     STATUS_NA      => yellow
+    STATUS_SKIP    => gray
 
 =back

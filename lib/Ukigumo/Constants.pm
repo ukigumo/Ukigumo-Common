@@ -8,9 +8,10 @@ use parent qw(Exporter);
 our @EXPORT = qw(STATUS_SUCCESS STATUS_FAIL STATUS_NA);
 
 use constant {
-	STATUS_SUCCESS => 1,
-	STATUS_FAIL    => 2,
-	STATUS_NA      => 3,
+    STATUS_SUCCESS => 1,
+    STATUS_FAIL    => 2,
+    STATUS_NA      => 3,
+    STATUS_SKIP    => 4,
 };
 
 1;
@@ -33,6 +34,11 @@ A module provides constants for L<Ukigumo>.
 =item STATUS_FAIL
 
 =item STATUS_NA
+
+=item STATUS_SKIP
+
+There is no reason to run the test cases.
+(e.g. There is no new commits)
 
 =back
 
