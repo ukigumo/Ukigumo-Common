@@ -5,7 +5,7 @@ use utf8;
 package Ukigumo::Constants;
 use parent qw(Exporter);
 
-our @EXPORT = qw(STATUS_SUCCESS STATUS_FAIL STATUS_NA);
+our @EXPORT = qw(STATUS_SUCCESS STATUS_FAIL STATUS_NA STATUS_SKIP);
 
 use constant {
     STATUS_SUCCESS => 1,
