@@ -12,3 +12,8 @@ tags
 META.yml
 pm_to_blib
 blib/
+MYMETA.*
+META.json
+README
+^inc/
+Ukigumo-Common-*/
