@@ -12,6 +12,10 @@ use constant {
     STATUS_FAIL    => 2,
     STATUS_NA      => 3,
     STATUS_SKIP    => 4,
+    STATUS_PENDING => 5,
+
+    NOTIFIER_GITHUBSTATUSES => 'Ukigumo::Client::Notify::GitHubStatuses',
+    NOTIFIER_IKACHAN        => 'Ukigumo::Client::Notify::Ikachan',
 };
 
 1;
@@ -39,6 +43,18 @@ A module provides constants for L<Ukigumo>.
 
 There is no reason to run the test cases.
 (e.g. There is no new commits)
+
+=item STATUS_PENDING
+
+Tests are in process.
+
+=item NOTIFIER_GITHUBSTATUSES
+
+Notifier class name for GitHub Statuses.
+
+=item NOTIFIER_IKACHAN
+
+Notifier class name for Ikachan.
 
 =back
 
