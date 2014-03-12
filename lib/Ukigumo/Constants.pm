@@ -5,7 +5,8 @@ use utf8;
 package Ukigumo::Constants;
 use parent qw(Exporter);
 
-our @EXPORT = qw(STATUS_SUCCESS STATUS_FAIL STATUS_NA STATUS_SKIP);
+our @EXPORT = qw(STATUS_SUCCESS STATUS_FAIL STATUS_NA STATUS_SKIP STATUS_PENDING
+                 NOTIFIER_GITHUBSTATUSES NOTIFIER_IKACHAN);
 
 use constant {
     STATUS_SUCCESS => 1,
