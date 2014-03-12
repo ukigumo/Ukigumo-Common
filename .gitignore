@@ -13,7 +13,14 @@ META.yml
 pm_to_blib
 blib/
 MYMETA.*
-META.json
 README
 ^inc/
 Ukigumo-Common-*/
+/Ukigumo-Common-*
+/.build
+/_build_params
+/Build
+/Build.bat
+!Build/
+!META.json
+!LICENSE
