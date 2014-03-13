@@ -65,8 +65,10 @@
          "web" : "https://github.com/moznion/Ukigumo-Common"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_contributors" : [
-      "Tokuhiro Matsuno <tokuhirom@gmail.com>"
+      "Tokuhiro Matsuno <tokuhirom@gmail.com>",
+      "mattn <mattn.jp@gmail.com>",
+      "moznion <moznion@gmail.com>"
    ]
 }
