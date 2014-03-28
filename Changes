@@ -2,6 +2,10 @@ Revision history for Perl extension Ukigumo::Common
 
 {{$NEXT}}
 
+0.05 2014-03-28T03:17:17Z
+
+    - Add a constant for timeout
+
 0.04 2014-03-13T07:54:10Z
 
     - Add some constants
