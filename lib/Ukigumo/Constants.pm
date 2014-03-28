@@ -14,6 +14,7 @@ use constant {
     STATUS_NA      => 3,
     STATUS_SKIP    => 4,
     STATUS_PENDING => 5,
+    STATUS_TIMEOUT => 6,
 
     NOTIFIER_GITHUBSTATUSES => 'Ukigumo::Client::Notify::GitHubStatuses',
     NOTIFIER_IKACHAN        => 'Ukigumo::Client::Notify::Ikachan',
@@ -48,6 +49,8 @@ There is no reason to run the test cases.
 =item STATUS_PENDING
 
 Tests are in process.
+
+=item STATUS_TIMEOUT
 
 =item NOTIFIER_GITHUBSTATUSES
 
