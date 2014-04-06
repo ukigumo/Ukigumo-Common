@@ -9,23 +9,23 @@ use Ukigumo::Constants;
 our @EXPORT = qw(status_str status_color);
 
 sub status_str {
-	my $status = shift;
+    my $status = shift;
     +{
         STATUS_SUCCESS() => 'SUCCESS',
         STATUS_FAIL()    => 'FAIL',
         STATUS_NA()      => 'NA',
         STATUS_SKIP()    => 'SKIP',
-	}->{$status} || "Unknown: $status";
+    }->{$status} || "Unknown: $status";
 }
 
 sub status_color {
-	my $status = shift;
-	+{
-		STATUS_SUCCESS() => 'green',
-		STATUS_FAIL()    => 'red',
-		STATUS_NA()      => 'yellow',
-		STATUS_SKIP()    => 'gray',
-	}->{$status} || "cyan";
+    my $status = shift;
+    +{
+        STATUS_SUCCESS() => 'green',
+        STATUS_FAIL()    => 'red',
+        STATUS_NA()      => 'yellow',
+        STATUS_SKIP()    => 'gray',
+    }->{$status} || "cyan";
 }
 
 1;
