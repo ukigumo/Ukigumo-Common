@@ -15,6 +15,8 @@ sub status_str {
         STATUS_FAIL()    => 'FAIL',
         STATUS_NA()      => 'NA',
         STATUS_SKIP()    => 'SKIP',
+        STATUS_PENDING() => 'PENDING',
+        STATUS_TIMEOUT() => 'TIMEOUT',
     }->{$status} || "Unknown: $status";
 }
 
@@ -25,6 +27,8 @@ sub status_color {
         STATUS_FAIL()    => 'red',
         STATUS_NA()      => 'yellow',
         STATUS_SKIP()    => 'gray',
+        STATUS_PENDING() => 'yellow',
+        STATUS_TIMEOUT() => 'red',
     }->{$status} || "cyan";
 }
 
