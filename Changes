@@ -2,6 +2,10 @@ Revision history for Perl extension Ukigumo::Common
 
 {{$NEXT}}
 
+0.07 2014-04-06T14:35:55Z
+
+    - Export STATUS_TIMEOUT
+
 0.06 2014-04-06T14:31:07Z
 
     - Add STATUS_TIMEOUT into helper class
