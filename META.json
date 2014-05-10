@@ -28,9 +28,6 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "CPAN::Meta" : "0",
-            "CPAN::Meta::Prereqs" : "0",
-            "Module::Build" : "0",
             "Module::Build::Tiny" : "0.035"
          }
       },
@@ -45,13 +42,16 @@
       },
       "runtime" : {
          "requires" : {
+            "Log::Minimal" : "0",
+            "Mouse" : "0",
             "parent" : "0",
             "perl" : "5.008001"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0"
+            "Capture::Tiny" : "0",
+            "Test::More" : "0.98"
          }
       }
    },
@@ -67,7 +67,7 @@
          "web" : "https://github.com/ukigumo/Ukigumo-Common"
       }
    },
-   "version" : "0.07",
+   "version" : "0.08",
    "x_authority" : "cpan:TOKUHIROM",
    "x_contributors" : [
       "Tokuhiro Matsuno <tokuhirom@gmail.com>",
