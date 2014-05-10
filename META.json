@@ -67,7 +67,7 @@
          "web" : "https://github.com/ukigumo/Ukigumo-Common"
       }
    },
-   "version" : "0.08",
+   "version" : "0.09",
    "x_authority" : "cpan:TOKUHIROM",
    "x_contributors" : [
       "Tokuhiro Matsuno <tokuhirom@gmail.com>",
