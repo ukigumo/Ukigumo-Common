@@ -4,7 +4,7 @@
       "Tokuhiro Matsuno <tokuhirom AAJKLFJEF@ GMAIL COM>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.15.2, CPAN::Meta::Converter version 2.133380",
+   "generated_by" : "Minilla/v1.1.0, CPAN::Meta::Converter version 2.133380",
    "license" : [
       "perl_5"
    ],
@@ -58,16 +58,15 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/ukigumo/Ukigumo-Common/issues"
+         "web" : "ssh://git@github.com/ukigumo/Ukigumo-Common/issues"
       },
-      "homepage" : "https://github.com/ukigumo/Ukigumo-Common",
+      "homepage" : "ssh://git@github.com/ukigumo/Ukigumo-Common",
       "repository" : {
-         "type" : "git",
-         "url" : "git://github.com/ukigumo/Ukigumo-Common.git",
-         "web" : "https://github.com/ukigumo/Ukigumo-Common"
+         "url" : "ssh://git@github.com/ukigumo/Ukigumo-Common",
+         "web" : "ssh://git@github.com/ukigumo/Ukigumo-Common"
       }
    },
-   "version" : "0.09",
+   "version" : "0.10",
    "x_authority" : "cpan:TOKUHIROM",
    "x_contributors" : [
       "Tokuhiro Matsuno <tokuhirom@gmail.com>",

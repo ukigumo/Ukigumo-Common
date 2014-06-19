@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ukigumo/Ukigumo-Common.png?branch=master)](https://travis-ci.org/ukigumo/Ukigumo-Common)
+
 # NAME
 
 Ukigumo::Common - Common things between Ukigumo::Client/Ukigumo::Server

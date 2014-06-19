@@ -6,7 +6,7 @@ package Ukigumo::Helper;
 use parent qw(Exporter);
 use Ukigumo::Constants;
 
-our @EXPORT = qw(status_str status_color);
+our @EXPORT = qw(status_str status_color normalize_path);
 
 sub status_str {
     my $status = shift;
@@ -30,6 +30,12 @@ sub status_color {
         STATUS_PENDING() => 'yellow',
         STATUS_TIMEOUT() => 'red',
     }->{$status} || "cyan";
+}
+
+sub normalize_path {
+    my $path = shift;
+    $path =~ s/[^a-zA-Z0-9-_]/_/g;
+    return $path;
 }
 
 1;
